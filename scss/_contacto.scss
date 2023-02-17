@@ -1,0 +1,79 @@
+.grey {
+    background-image: linear-gradient(to bottom, rgb(234, 229, 198), rgb(245, 244, 243));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .contacto {
+        color: $bgcolor;
+        padding: 30px 15px;
+        font-size: 20px;
+    }
+
+    .form-contact {
+        background-color: rgba(0, 0, 0, 0.225);
+        text-align: center;
+        border-radius: 5px;
+
+        form {
+
+            label {
+                font-size: 18px;
+                color: #000;
+            }
+    
+            input {
+                height: 20px;
+                width: 70%;
+                background-color: rgb(217, 217, 217);
+                border: none;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            
+            input:hover {
+                border: #000 solid 2px;
+            }
+
+            textarea {
+                height: auto;
+                width: 70%;
+                background-color: rgb(217, 217, 217);
+                border: none;
+                border-radius: 5px;
+                resize: none;
+            }
+
+            textarea:hover {
+                border: #000 solid 2px;
+            }
+
+            .enviar {
+                height: 5%;
+                width: 25%;
+                border: #000 solid 2px;
+                color: #fff;
+                background-color: $color1;
+                color: #fff;
+            }
+
+            .enviar:hover {
+                border: #000 solid 2px;
+                color: $color1;
+                background-color: #333;
+            }
+        }
+    }
+
+    .support {
+        color: $color1;
+        font-size: 20px;
+        padding: 20px 15px 0 10px;
+    }
+
+    ul {
+        
+        .list-support {
+            margin-left: 30px;
+        }
+    }
+}

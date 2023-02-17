@@ -1,0 +1,1373 @@
+@font-face {
+  font-family: "NVIDIA Sans";
+  src: url("NVIDIASans-Regular.eot");
+  src: local("NVIDIA Sans Regular"), local("NVIDIASans-Regular"), url("NVIDIASans-Regular.eot?#iefix") format("embedded-opentype"), url("NVIDIASans-Regular.woff2") format("woff2"), url("NVIDIASans-Regular.woff") format("woff"), url("NVIDIASans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NVIDIA Sans";
+  src: url("NVIDIASans-Bold.eot");
+  src: local("NVIDIA Sans Bold"), local("NVIDIASans-Bold"), url("NVIDIASans-Bold.eot?#iefix") format("embedded-opentype"), url("NVIDIASans-Bold.woff2") format("woff2"), url("NVIDIASans-Bold.woff") format("woff"), url("NVIDIASans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+body {
+  font-family: "NVIDIA Sans";
+}
+
+.navbar {
+  background-color: #343636;
+  width: 100%;
+  position: sticky;
+}
+
+.navbar-expand-md {
+  padding: 0;
+}
+.navbar-expand-md .navbar-brand {
+  height: 80px;
+}
+.navbar-expand-md .navbar-brand h1 {
+  color: #fff;
+  font-size: 25px;
+  font-family: "NVIDIA Sans" sans serif;
+  padding-right: 0;
+  margin: 0;
+  line-height: 70px;
+  font-weight: bold;
+}
+.navbar-expand-md .navbar-brand span {
+  color: #91c612;
+  font-family: "NVIDIA Sans" sans serif;
+}
+.navbar-expand-md .navbar-toggler {
+  padding: 0 !important;
+}
+.navbar-expand-md .navbar-toggler i {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+.navbar-expand-md .collapse .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5 all ease;
+  font-family: "NVIDIA Sans" sans serif;
+}
+.navbar-expand-md .collapse .navbar-nav .nav-item .nav-link:hover {
+  padding-left: 10px;
+  color: #91c612;
+}
+
+.carousel-indicators li {
+  color: #fff;
+  height: 15px;
+}
+
+.carousel-inner .carousel-item .banner {
+  height: 150px;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  height: 150px;
+}
+
+.title-h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  background-color: #91c612;
+  margin: 0;
+  font-family: "NVIDIA Sans" sans serif;
+  font-size: 20px;
+  text-shadow: 20px #000;
+  font-weight: bold;
+}
+
+.bgc-img {
+  background-color: #000;
+}
+.bgc-img .img-section {
+  background-color: #000;
+  height: 130px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+.bgc-img .title-i-section {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  font-family: "NVIDIA Sans" sans serif;
+}
+.bgc-img .title-i-section h3 {
+  text-align: left;
+  color: #91c612;
+  font-family: "NVIDIA Sans" sans serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.bgc-img .title-i-section p {
+  text-align: left;
+  font-family: "NVIDIA Sans" sans serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+.bgc-img .title-i-section a {
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #91c612;
+  padding: 10px 30px;
+  text-align: center !important;
+  font-family: "NVIDIA Sans" sans serif;
+  font-size: 15px;
+}
+.bgc-img .img1 {
+  background-color: #000;
+  background-image: url(files/img1.jpg);
+}
+.bgc-img .img2 {
+  background-color: #000;
+  background-image: url(files/img2.jpg);
+}
+.bgc-img .img3 {
+  background-color: #000;
+  background-image: url(files/img3.jpg);
+}
+.bgc-img .img4 {
+  background-color: #000;
+  background-image: url(files/img4.jpg);
+}
+
+.marcas {
+  height: 50px;
+  width: auto;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.space {
+  height: 900px;
+  width: 100%;
+}
+
+#footer {
+  background: #343636 !important;
+  padding: 60px 0;
+}
+#footer .foo {
+  padding: 10px 40px;
+}
+#footer h5 {
+  padding-left: 10px;
+  border-left: 3px solid #91c612;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color: #91c612;
+  font-family: "NVIDIA Sans" sans serif;
+  text-transform: uppercase;
+}
+#footer .list-unstyled i {
+  color: #91c612;
+}
+#footer a {
+  color: #fff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  font-family: "NVIDIA Sans" sans serif;
+}
+#footer ul.social li {
+  padding: 3px 0;
+}
+#footer ul.social li a {
+  color: #fff;
+  font-family: "NVIDIA Sans" sans serif;
+}
+#footer ul.social li a i {
+  margin-right: 5px;
+  font-size: 30px;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+#footer ul.social li:hover a {
+  font-family: "NVIDIA Sans" sans serif;
+}
+#footer ul.social li:hover a i {
+  font-size: 40px;
+  margin-top: -10px;
+}
+#footer ul.social li:hover a:hover {
+  color: #eeeeee;
+  font-family: "NVIDIA Sans" sans serif;
+}
+#footer ul.quick-links li {
+  padding: 3px 0;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+#footer ul.quick-links li a {
+  color: #fff;
+  font-family: "NVIDIA Sans" sans serif;
+}
+#footer ul.quick-links li a i {
+  margin-right: 5px;
+}
+#footer ul.quick-links li:hover {
+  padding: 3px 0;
+  margin-left: 5px;
+  font-weight: 700;
+}
+#footer ul.quick-links li:hover a {
+  font-family: "NVIDIA Sans" sans serif;
+}
+#footer ul.quick-links li:hover a i {
+  font-weight: 700;
+}
+#footer .h6 {
+  color: #91c612;
+  font-family: "NVIDIA Sans" sans serif;
+}
+
+.p-title {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-family: "NVIDIA Sans" sans serif;
+  font-size: 22px;
+  background-color: #91c612;
+  margin: 0;
+  padding: 5px;
+}
+
+.p-bg-gray {
+  background-color: #999;
+  height: 300px;
+}
+
+.p-bg-white {
+  background-color: #fff;
+  height: 300px;
+}
+
+.p-subtitle {
+  font-family: "Nvidia Sans" sans-serif;
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.p-p {
+  text-align: center;
+  font-family: "Nvidia Sans" sans-serif;
+}
+
+.p-photos {
+  display: flex;
+  justify-content: space-around;
+}
+.p-photos .tam-procesadores {
+  height: 120px;
+  width: auto;
+}
+.p-photos .tam-graficas {
+  height: 170px;
+  width: auto;
+}
+.p-photos .tam-mother {
+  height: 120px;
+  width: auto;
+}
+.p-photos .tam-ddr4 {
+  height: 90px;
+  width: auto;
+}
+.p-photos .tam-ddr5 {
+  height: 105px;
+  width: auto;
+}
+.p-photos .tam-storage {
+  height: 140px;
+  width: auto;
+}
+.p-photos .tam-nvme {
+  height: 160px;
+  width: auto;
+}
+.p-photos .tam-fuente {
+  height: 100px;
+  width: auto;
+}
+.p-photos .tam-refriaire {
+  height: 150px;
+  width: auto;
+}
+.p-photos .tam-refriliquid {
+  height: 90px;
+  width: auto;
+}
+.p-photos .tam-gabinetes {
+  height: 150px;
+  width: auto;
+}
+.p-photos .tam-monitores {
+  height: 115px;
+  width: auto;
+}
+.p-photos .tam-teclados {
+  height: 90px;
+  width: auto;
+}
+.p-photos .tam-mouses {
+  height: 180px;
+  width: auto;
+}
+.p-photos .tam-mousepad {
+  height: 110px;
+  width: auto;
+}
+.p-photos .tam-auris {
+  height: 140px;
+  width: auto;
+}
+
+.bgc-pres {
+  background-image: linear-gradient(to right, #111 40%, #999);
+}
+
+.pres-bgc {
+  background-image: linear-gradient(to left, #111 40%, #999);
+}
+
+.img-pres {
+  height: 130px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.pre1 {
+  background-image: url(files/pre1.png);
+}
+
+.pre2 {
+  background-image: url(files/pre2.png);
+}
+
+.pre3 {
+  background-image: url(files/pre3.png);
+}
+
+.title-pres {
+  color: #fff;
+  padding: 20px;
+  font-family: "NVIDIA Sans" sans serif;
+}
+.title-pres h3 {
+  text-align: left;
+  color: #91c612;
+  font-family: "NVIDIA Sans" sans serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.title-pres p {
+  text-align: left;
+  font-family: "NVIDIA Sans" sans serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.serv {
+  background-image: linear-gradient(to bottom, rgb(234, 229, 198), rgb(245, 244, 243));
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0;
+}
+.serv .title-serv {
+  height: 10%;
+  width: 100%;
+  background-color: #91c612;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.serv .title-serv span {
+  color: #343636;
+}
+.serv .services {
+  text-align: left;
+  padding-right: 30px;
+}
+.serv .services .subtitle-serv {
+  color: #000;
+  padding-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.serv .services .list {
+  padding-left: 50px;
+}
+.serv .services .list li:hover {
+  margin-left: 10px;
+  transition: all 0.5s;
+}
+
+.grey {
+  background-image: linear-gradient(to bottom, rgb(234, 229, 198), rgb(245, 244, 243));
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grey .contacto {
+  color: #343636;
+  padding: 30px 15px;
+  font-size: 20px;
+}
+.grey .form-contact {
+  background-color: rgba(0, 0, 0, 0.225);
+  text-align: center;
+  border-radius: 5px;
+}
+.grey .form-contact form label {
+  font-size: 18px;
+  color: #000;
+}
+.grey .form-contact form input {
+  height: 20px;
+  width: 70%;
+  background-color: rgb(217, 217, 217);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.grey .form-contact form input:hover {
+  border: #000 solid 2px;
+}
+.grey .form-contact form textarea {
+  height: auto;
+  width: 70%;
+  background-color: rgb(217, 217, 217);
+  border: none;
+  border-radius: 5px;
+  resize: none;
+}
+.grey .form-contact form textarea:hover {
+  border: #000 solid 2px;
+}
+.grey .form-contact form .enviar {
+  height: 5%;
+  width: 25%;
+  border: #000 solid 2px;
+  color: #fff;
+  background-color: #91c612;
+  color: #fff;
+}
+.grey .form-contact form .enviar:hover {
+  border: #000 solid 2px;
+  color: #91c612;
+  background-color: #333;
+}
+.grey .support {
+  color: #91c612;
+  font-size: 20px;
+  padding: 20px 15px 0 10px;
+}
+.grey ul .list-support {
+  margin-left: 30px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .navbar {
+    background-color: #343636;
+    width: 375px;
+    position: sticky;
+  }
+  .navbar-expand-md {
+    padding: 0;
+  }
+  .navbar-expand-md .navbar-brand h1 {
+    font-size: 28px;
+  }
+  .navbar-expand-md .navbar-toggler i {
+    margin-right: 10px;
+  }
+  .carousel-indicators li {
+    color: #fff;
+    height: 15px;
+  }
+  .carousel-inner .carousel-item .banner {
+    height: 180px;
+    width: 375px;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    height: 180px;
+  }
+  .bgc-img {
+    width: 375px;
+  }
+  .bgc-img .img-section {
+    width: 375px;
+    background-position: center;
+  }
+  .space {
+    height: 700px;
+    width: 375px;
+  }
+  #footer {
+    width: 375px;
+  }
+  .p-photos .tam-procesadores {
+    height: 130px;
+    width: auto;
+  }
+  .p-photos .tam-graficas {
+    height: 180px;
+    width: auto;
+  }
+  .p-photos .tam-mother {
+    height: 140px;
+    width: auto;
+  }
+  .p-photos .tam-ddr4 {
+    height: 110px;
+    width: auto;
+  }
+  .p-photos .tam-ddr5 {
+    height: 120px;
+    width: auto;
+  }
+  .p-photos .tam-storage {
+    height: 150px;
+    width: auto;
+  }
+  .p-photos .tam-nvme {
+    height: 170px;
+    width: auto;
+  }
+  .p-photos .tam-fuente {
+    height: 120px;
+    width: auto;
+  }
+  .p-photos .tam-refriaire {
+    height: 160px;
+    width: auto;
+  }
+  .p-photos .tam-refriliquid {
+    height: 100px;
+    width: auto;
+  }
+  .p-photos .tam-gabinetes {
+    height: 160px;
+    width: auto;
+  }
+  .p-photos .tam-monitores {
+    height: 125px;
+    width: auto;
+  }
+  .p-photos .tam-teclados {
+    height: 100px;
+    width: auto;
+  }
+  .p-photos .tam-mouses {
+    height: 190px;
+    width: auto;
+  }
+  .p-photos .tam-mousepad {
+    height: 110px;
+    width: auto;
+  }
+  .p-photos .tam-auris {
+    height: 150px;
+    width: auto;
+  }
+  .bgc-pres {
+    width: 375px;
+  }
+  .pres-bgc {
+    width: 375px;
+  }
+  .img-pres {
+    width: 375px;
+    background-position: center;
+  }
+  .grey .contacto {
+    font-size: 22px;
+  }
+  .grey .form-contact form label {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .navbar-expand-md .navbar-brand h1 {
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  .navbar-expand-md .navbar-toggler i {
+    margin-right: 20px;
+  }
+  .carousel-indicators li {
+    color: #fff;
+    height: 15px;
+  }
+  .carousel-inner .carousel-item .banner {
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    height: 200px;
+  }
+  .marcas {
+    height: 60px;
+  }
+  .space {
+    height: 950px;
+  }
+  .p-title {
+    font-size: 25px;
+  }
+  .p-subtitle {
+    font-size: 20px;
+  }
+  .p-photos .tam-procesadores {
+    height: 130px;
+    width: auto;
+  }
+  .p-photos .tam-graficas {
+    height: 180px;
+    width: auto;
+  }
+  .p-photos .tam-mother {
+    height: 140px;
+    width: auto;
+  }
+  .p-photos .tam-ddr4 {
+    height: 110px;
+    width: auto;
+  }
+  .p-photos .tam-ddr5 {
+    height: 135px;
+    width: auto;
+  }
+  .p-photos .tam-storage {
+    height: 150px;
+    width: auto;
+  }
+  .p-photos .tam-nvme {
+    height: 180px;
+    width: auto;
+  }
+  .p-photos .tam-fuente {
+    height: 130px;
+    width: auto;
+  }
+  .p-photos .tam-refriaire {
+    height: 160px;
+    width: auto;
+  }
+  .p-photos .tam-refriliquid {
+    height: 100px;
+    width: auto;
+  }
+  .p-photos .tam-gabinetes {
+    height: 170px;
+    width: auto;
+  }
+  .p-photos .tam-monitores {
+    height: 130px;
+    width: auto;
+  }
+  .p-photos .tam-teclados {
+    height: 100px;
+    width: auto;
+  }
+  .p-photos .tam-mouses {
+    height: 190px;
+    width: auto;
+  }
+  .p-photos .tam-mousepad {
+    height: 110px;
+    width: auto;
+  }
+  .p-photos .tam-auris {
+    height: 150px;
+    width: auto;
+  }
+  .grey .contacto {
+    font-size: 25px;
+  }
+  .grey .form-contact form label {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .navbar-expand-md .navbar-brand h1 {
+    margin-left: 5px;
+    font-size: 30px;
+  }
+  .navbar-expand-md .navbar-toggler i {
+    margin-right: 20px;
+  }
+  .navbar-expand-md .collapse .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .carousel-inner .carousel-item .banner {
+    height: 270px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    height: 270px;
+  }
+  .bgc-img .img-section {
+    height: 220px;
+  }
+  .marcas {
+    height: 80px;
+  }
+  .space {
+    height: 850px;
+  }
+  #footer ul.quick-links li a {
+    font-size: 15px;
+  }
+  .p-title {
+    font-size: 25px;
+  }
+  .p-subtitle {
+    font-size: 20px;
+  }
+  .p-photos .tam-procesadores {
+    height: 140px;
+    width: auto;
+  }
+  .p-photos .tam-graficas {
+    height: 170px;
+    width: auto;
+  }
+  .p-photos .tam-mother {
+    height: 130px;
+    width: auto;
+  }
+  .p-photos .tam-ddr4 {
+    height: 110px;
+    width: auto;
+  }
+  .p-photos .tam-ddr5 {
+    height: 120px;
+    width: auto;
+  }
+  .p-photos .tam-storage {
+    height: 140px;
+    width: auto;
+  }
+  .p-photos .tam-nvme {
+    height: 190px;
+    width: auto;
+  }
+  .p-photos .tam-fuente {
+    height: 105px;
+    width: auto;
+  }
+  .p-photos .tam-refriaire {
+    height: 140px;
+    width: auto;
+  }
+  .p-photos .tam-refriliquid {
+    height: 100px;
+    width: auto;
+  }
+  .p-photos .tam-gabinetes {
+    height: 160px;
+    width: auto;
+  }
+  .p-photos .tam-monitores {
+    height: 130px;
+    width: auto;
+  }
+  .p-photos .tam-teclados {
+    height: 100px;
+    width: auto;
+  }
+  .p-photos .tam-mouses {
+    height: 190px;
+    width: auto;
+  }
+  .p-photos .tam-mousepad {
+    height: 100px;
+    width: auto;
+  }
+  .p-photos .tam-auris {
+    height: 160px;
+    width: auto;
+  }
+  .img-pres {
+    height: 220px;
+  }
+  .serv {
+    background-image: url(../files/bgservices.jpg);
+    background-position: center;
+  }
+  .serv .services .subtitle-serv {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .serv .services .list li {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .grey {
+    background-image: url(../files/bgcontacto.jpg);
+    background-position: center;
+  }
+  .grey .contacto {
+    font-size: 25px;
+  }
+  .grey .form-contact form label {
+    font-size: 22px;
+  }
+  .support {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+  }
+  ul .list-support {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .navbar-expand-md .navbar-brand h1 {
+    margin-left: 30px;
+    font-size: 35px;
+  }
+  .navbar-expand-md .navbar-toggler i {
+    margin-right: 20px;
+  }
+  .navbar-expand-md .collapse .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+  }
+  .carousel-inner .carousel-item .banner {
+    height: 350px;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    height: 350px;
+  }
+  .bgc-img .img-section {
+    height: 280px;
+  }
+  .marcas {
+    height: 80px;
+  }
+  .space {
+    height: 650px;
+  }
+  .p-title {
+    font-size: 27px;
+  }
+  .p-subtitle {
+    font-size: 23px;
+  }
+  .p-p {
+    font-size: 18px;
+  }
+  .p-photos .tam-procesadores {
+    height: 170px;
+    width: auto;
+  }
+  .p-photos .tam-graficas {
+    height: 180px;
+    width: auto;
+  }
+  .p-photos .tam-mother {
+    height: 160px;
+    width: auto;
+  }
+  .p-photos .tam-ddr4 {
+    height: 120px;
+    width: auto;
+  }
+  .p-photos .tam-ddr5 {
+    height: 150px;
+    width: auto;
+  }
+  .p-photos .tam-storage {
+    height: 155px;
+    width: auto;
+  }
+  .p-photos .tam-nvme {
+    height: 180px;
+    width: auto;
+  }
+  .p-photos .tam-fuente {
+    height: 110px;
+    width: auto;
+  }
+  .p-photos .tam-refriaire {
+    height: 180px;
+    width: auto;
+  }
+  .p-photos .tam-refriliquid {
+    height: 110px;
+    width: auto;
+  }
+  .p-photos .tam-gabinetes {
+    height: 210px;
+    width: auto;
+  }
+  .p-photos .tam-monitores {
+    height: 160px;
+    width: auto;
+  }
+  .p-photos .tam-teclados {
+    height: 110px;
+    width: auto;
+  }
+  .p-photos .tam-mouses {
+    height: 220px;
+    width: auto;
+  }
+  .p-photos .tam-mousepad {
+    height: 110px;
+    width: auto;
+  }
+  .p-photos .tam-auris {
+    height: 190px;
+    width: auto;
+  }
+  .img-pres {
+    height: 280px;
+  }
+  .serv {
+    background-image: url(../files/bgservices.jpg);
+    background-position: left;
+  }
+  .serv .services .subtitle-serv {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .serv .services .list li {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .grey {
+    background-image: url(../files/bgcontacto.jpg);
+    background-position: center;
+  }
+  .grey .contacto {
+    font-size: 25px;
+  }
+  .grey .form-contact form label {
+    font-size: 22px;
+  }
+  .support {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+  }
+  ul .list-support {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+  .navbar-expand-md .navbar-brand h1 {
+    margin-left: 30px;
+    font-size: 40px;
+  }
+  .navbar-expand-md .navbar-toggler i {
+    margin-right: 20px;
+  }
+  .navbar-expand-md .collapse .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+  }
+  .carousel-inner .carousel-item .banner {
+    height: 450px;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    height: 450px;
+  }
+  .bgc-img .img-section {
+    height: 370px;
+  }
+  .bgc-img .title-i-section h3 {
+    font-size: 20px;
+  }
+  .bgc-img .title-i-section p {
+    font-size: 18px;
+  }
+  .bgc-img .title-i-section a {
+    font-size: 18px;
+  }
+  .marcas {
+    height: 100px;
+  }
+  .space {
+    height: 650px;
+  }
+  .p-title {
+    font-size: 30px;
+  }
+  .p-subtitle {
+    font-size: 25px;
+  }
+  .p-p {
+    font-size: 20px;
+  }
+  .p-photos .tam-procesadores {
+    height: 170px;
+    width: auto;
+  }
+  .p-photos .tam-graficas {
+    height: 175px;
+    width: auto;
+  }
+  .p-photos .tam-mother {
+    height: 160px;
+    width: auto;
+  }
+  .p-photos .tam-ddr4 {
+    height: 120px;
+    width: auto;
+  }
+  .p-photos .tam-ddr5 {
+    height: 150px;
+    width: auto;
+  }
+  .p-photos .tam-storage {
+    height: 155px;
+    width: auto;
+  }
+  .p-photos .tam-nvme {
+    height: 170px;
+    width: auto;
+  }
+  .p-photos .tam-fuente {
+    height: 120px;
+    width: auto;
+  }
+  .p-photos .tam-refriaire {
+    height: 180px;
+    width: auto;
+  }
+  .p-photos .tam-refriliquid {
+    height: 110px;
+    width: auto;
+  }
+  .p-photos .tam-gabinetes {
+    height: 200px;
+    width: auto;
+  }
+  .p-photos .tam-monitores {
+    height: 170px;
+    width: auto;
+  }
+  .p-photos .tam-teclados {
+    height: 110px;
+    width: auto;
+  }
+  .p-photos .tam-mouses {
+    height: 200px;
+    width: auto;
+  }
+  .p-photos .tam-mousepad {
+    height: 130px;
+    width: auto;
+  }
+  .p-photos .tam-auris {
+    height: 200px;
+    width: auto;
+  }
+  .img-pres {
+    height: 370px;
+  }
+  .title-pres h3 {
+    font-size: 20px;
+  }
+  .title-pres p {
+    font-size: 18px;
+  }
+  .title-pres a {
+    font-size: 18px;
+  }
+  .serv {
+    background-image: url(../files/bgservices.jpg);
+    background-position: left;
+  }
+  .serv .services .subtitle-serv {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .serv .services .list li {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .grey {
+    background-image: url(../files/bgcontacto.jpg);
+    background-position: center;
+  }
+  .grey .contacto {
+    font-size: 25px;
+  }
+  .grey .form-contact form label {
+    font-size: 22px;
+  }
+  .grey .form-contact form .enviar {
+    width: 40%;
+  }
+  .support {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+  }
+  ul .list-support {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .navbar-expand-md .navbar-brand {
+    height: 150px;
+  }
+  .navbar-expand-md .navbar-brand h1 {
+    margin-left: 30px;
+    font-size: 65px;
+    line-height: 140px;
+  }
+  .navbar-expand-md .navbar-toggler i {
+    margin-right: 20px;
+  }
+  .navbar-expand-md .collapse .navbar-nav .nav-item .nav-link {
+    font-size: 30px;
+  }
+  .carousel-inner .carousel-item .banner {
+    height: 800px;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    height: 800px;
+  }
+  .carousel-control-next .carousel-control-next-icon,
+  .carousel-control-next .carousel-control-prev-icon,
+  .carousel-control-prev .carousel-control-next-icon,
+  .carousel-control-prev .carousel-control-prev-icon {
+    height: 80px;
+    width: 40px;
+  }
+  .title-h2 {
+    font-size: 50px;
+  }
+  .bgc-img .img-section {
+    height: 600px;
+  }
+  .bgc-img .title-i-section h3 {
+    font-size: 40px;
+  }
+  .bgc-img .title-i-section p {
+    font-size: 25px;
+  }
+  .bgc-img .title-i-section a {
+    font-size: 25px;
+  }
+  .marcas {
+    height: 130px;
+  }
+  .space {
+    height: 700px;
+  }
+  #footer .foo {
+    padding: 0 60px;
+  }
+  #footer .foo h5 {
+    font-size: 35px;
+  }
+  #footer .txt-foo {
+    justify-content: space-between;
+  }
+  #footer .social .list-inline-item .fa-brands {
+    font-size: 60px;
+    margin-left: 20px;
+  }
+  #footer .social .list-inline-item .fa-brands:hover {
+    font-size: 80px;
+  }
+  #footer ul.quick-links li a {
+    font-size: 25px;
+  }
+  #footer p {
+    font-size: 25px;
+  }
+  .p-bg-gray {
+    height: 500px;
+  }
+  .p-bg-white {
+    height: 500px;
+  }
+  .p-title {
+    font-size: 50px;
+  }
+  .p-subtitle {
+    font-size: 40px;
+  }
+  .p-p {
+    font-size: 30px;
+  }
+  .p-photos .tam-procesadores {
+    height: 300px;
+    width: auto;
+  }
+  .p-photos .tam-graficas {
+    height: 300px;
+    width: auto;
+  }
+  .p-photos .tam-mother {
+    height: 250px;
+    width: auto;
+  }
+  .p-photos .tam-ddr4 {
+    height: 300px;
+    width: auto;
+  }
+  .p-photos .tam-ddr5 {
+    height: 300px;
+    width: auto;
+  }
+  .p-photos .tam-storage {
+    height: 300px;
+    width: auto;
+  }
+  .p-photos .tam-nvme {
+    height: 300px;
+    width: auto;
+  }
+  .p-photos .tam-fuente {
+    height: 250px;
+    width: auto;
+  }
+  .p-photos .tam-refriaire {
+    height: 300px;
+    width: auto;
+  }
+  .p-photos .tam-refriliquid {
+    height: 250px;
+    width: auto;
+  }
+  .p-photos .tam-gabinetes {
+    height: 300px;
+    width: auto;
+  }
+  .p-photos .tam-monitores {
+    height: 300px;
+    width: auto;
+  }
+  .p-photos .tam-teclados {
+    height: 250px;
+    width: auto;
+  }
+  .p-photos .tam-mouses {
+    height: 300px;
+    width: auto;
+  }
+  .p-photos .tam-mousepad {
+    height: 250px;
+    width: auto;
+  }
+  .p-photos .tam-auris {
+    height: 300px;
+    width: auto;
+  }
+  .img-pres {
+    height: 600px;
+  }
+  .title-pres h3 {
+    font-size: 40px;
+  }
+  .title-pres p {
+    font-size: 25px;
+  }
+  .title-pres a {
+    font-size: 25px;
+  }
+  .serv {
+    background-image: url(../files/bgservices.jpg);
+    background-position: left;
+  }
+  .serv .title-serv {
+    font-size: 50px;
+  }
+  .serv .services .subtitle-serv {
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 40px;
+  }
+  .serv .services .list li {
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 30px;
+  }
+  .grey {
+    background-image: url(../files/bgcontacto.jpg);
+    background-position: center;
+  }
+  .grey .contacto {
+    font-size: 45px;
+  }
+  .grey .form-contact form {
+    height: 700px;
+  }
+  .grey .form-contact form label {
+    font-size: 30px;
+  }
+  .grey .form-contact form input {
+    height: 30px;
+  }
+  .grey .form-contact form textarea {
+    height: 200px;
+  }
+  .grey .form-contact form .enviar {
+    height: 6%;
+    width: 40%;
+    font-size: 25px;
+  }
+  .grey .support {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    font-size: 45px;
+  }
+  .grey ul .list-support {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

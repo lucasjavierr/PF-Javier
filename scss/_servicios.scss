@@ -1,0 +1,49 @@
+.serv {
+    background-image: linear-gradient(to bottom, rgb(234, 229, 198), rgb(245, 244, 243));
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+
+    .title-serv {
+        height: 10%;
+        width: 100%;
+        background-color: $color1;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        padding-top: 20px;
+
+        span {
+            color: $bgcolor;
+        }
+    }
+
+    .services {
+        text-align: left;
+        padding-right: 30px;
+
+        .subtitle-serv {
+            color: #000;
+            padding-left: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .list {
+            padding-left: 50px;
+
+            li:hover {
+                margin-left: 10px;
+                transition: all .5s;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+

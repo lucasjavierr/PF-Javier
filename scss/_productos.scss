@@ -1,0 +1,118 @@
+.p-title {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: $font1;
+    font-size: 22px;
+    background-color: $color1;
+    margin: 0;
+    padding: 5px;
+}
+
+.p-bg-gray {
+    background-color: #999;
+    height: 300px;
+}
+
+.p-bg-white {
+    background-color: #fff;
+    height: 300px;
+}
+
+.p-subtitle {
+    font-family: 'Nvidia Sans' sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.p-p {
+    text-align: center;
+    font-family: 'Nvidia Sans' sans-serif;
+}
+
+.p-photos{
+    display: flex;
+    justify-content: space-around;
+
+    .tam-procesadores {
+        height: 120px;
+        width: auto;
+    }
+    
+    .tam-graficas {
+        height: 170px;
+        width: auto;
+    }
+    
+    .tam-mother {
+        height: 120px;
+        width: auto;
+    }
+    
+    .tam-ddr4 {
+        height: 90px;
+        width: auto;
+    }
+    
+    .tam-ddr5 {
+        height: 105px;
+        width: auto;
+    }
+    
+    .tam-storage {
+        height: 140px;
+        width: auto;
+    }
+    
+    .tam-nvme {
+        height: 160px;
+        width: auto;
+    }
+    
+    .tam-fuente {
+        height: 100px;
+        width: auto;
+    }
+    
+    .tam-refriaire {
+        height: 150px;
+        width: auto;
+    }
+    
+    .tam-refriliquid {
+        height: 90px;
+        width: auto;
+    }
+    
+    .tam-gabinetes {
+        height: 150px;
+        width: auto;
+    }
+    
+    .tam-monitores {
+        height: 115px;
+        width: auto;
+    }
+    
+    .tam-teclados {
+        height: 90px;
+        width: auto;
+    }
+    
+    .tam-mouses {
+        height: 180px;
+        width: auto;
+    }
+    
+    .tam-mousepad{
+        height: 110px;
+        width: auto;
+    }
+    
+    .tam-auris {
+        height: 140px;
+        width: auto;
+    }
+}
