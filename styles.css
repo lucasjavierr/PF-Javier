@@ -843,7 +843,7 @@ body {
     height: 220px;
   }
   .serv {
-    background-image: url(../files/bgservices.jpg);
+    background-image: url(files/bgservices.jpg);
     background-position: center;
   }
   .serv .services .subtitle-serv {
@@ -853,7 +853,7 @@ body {
     background-color: rgba(255, 255, 255, 0.6);
   }
   .grey {
-    background-image: url(../files/bgcontacto.jpg);
+    background-image: url(files/bgcontacto.jpg);
     background-position: center;
   }
   .grey .contacto {
@@ -975,7 +975,7 @@ body {
     height: 280px;
   }
   .serv {
-    background-image: url(../files/bgservices.jpg);
+    background-image: url(files/bgservices.jpg);
     background-position: left;
   }
   .serv .services .subtitle-serv {
@@ -985,7 +985,7 @@ body {
     background-color: rgba(255, 255, 255, 0.6);
   }
   .grey {
-    background-image: url(../files/bgcontacto.jpg);
+    background-image: url(files/bgcontacto.jpg);
     background-position: center;
   }
   .grey .contacto {
@@ -1125,7 +1125,7 @@ body {
     font-size: 18px;
   }
   .serv {
-    background-image: url(../files/bgservices.jpg);
+    background-image: url(files/bgservices.jpg);
     background-position: left;
   }
   .serv .services .subtitle-serv {
@@ -1135,7 +1135,7 @@ body {
     background-color: rgba(255, 255, 255, 0.6);
   }
   .grey {
-    background-image: url(../files/bgcontacto.jpg);
+    background-image: url(files/bgcontacto.jpg);
     background-position: center;
   }
   .grey .contacto {
@@ -1320,7 +1320,7 @@ body {
     font-size: 25px;
   }
   .serv {
-    background-image: url(../files/bgservices.jpg);
+    background-image: url(files/bgservices.jpg);
     background-position: left;
   }
   .serv .title-serv {
@@ -1335,7 +1335,7 @@ body {
     font-size: 30px;
   }
   .grey {
-    background-image: url(../files/bgcontacto.jpg);
+    background-image: url(files/bgcontacto.jpg);
     background-position: center;
   }
   .grey .contacto {
