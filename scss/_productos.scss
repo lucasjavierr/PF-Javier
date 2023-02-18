@@ -1,12 +1,20 @@
 .p-title {
     text-align: center;
-    color: #fff;
     font-weight: bold;
     font-family: $font1;
     font-size: 22px;
     background-color: $color1;
     margin: 0;
     padding: 5px;
+
+    a {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: $bgcolor;
+    }
 }
 
 .p-bg-gray {
@@ -35,6 +43,11 @@
 .p-photos{
     display: flex;
     justify-content: space-around;
+
+    .tam-notes {
+        height: 100px;
+        width: auto;
+    }
 
     .tam-procesadores {
         height: 120px;

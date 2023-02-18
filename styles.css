@@ -257,13 +257,19 @@ body {
 
 .p-title {
   text-align: center;
-  color: #fff;
   font-weight: bold;
   font-family: "NVIDIA Sans" sans serif;
   font-size: 22px;
   background-color: #91c612;
   margin: 0;
   padding: 5px;
+}
+.p-title a {
+  color: #fff;
+  text-decoration: underline;
+}
+.p-title a:hover {
+  color: #343636;
 }
 
 .p-bg-gray {
@@ -292,6 +298,10 @@ body {
 .p-photos {
   display: flex;
   justify-content: space-around;
+}
+.p-photos .tam-notes {
+  height: 100px;
+  width: auto;
 }
 .p-photos .tam-procesadores {
   height: 120px;
@@ -547,6 +557,10 @@ body {
   #footer {
     width: 375px;
   }
+  .p-photos .tam-notes {
+    height: 110px;
+    width: auto;
+  }
   .p-photos .tam-procesadores {
     height: 130px;
     width: auto;
@@ -663,6 +677,10 @@ body {
   .p-subtitle {
     font-size: 20px;
   }
+  .p-photos .tam-notes {
+    height: 120px;
+    width: auto;
+  }
   .p-photos .tam-procesadores {
     height: 130px;
     width: auto;
@@ -775,6 +793,10 @@ body {
   .p-subtitle {
     font-size: 20px;
   }
+  .p-photos .tam-notes {
+    height: 120px;
+    width: auto;
+  }
   .p-photos .tam-procesadores {
     height: 140px;
     width: auto;
@@ -843,7 +865,7 @@ body {
     height: 220px;
   }
   .serv {
-    background-image: url(files/bgservices.jpg);
+    background-image: url(../files/bgservices.jpg);
     background-position: center;
   }
   .serv .services .subtitle-serv {
@@ -853,7 +875,7 @@ body {
     background-color: rgba(255, 255, 255, 0.6);
   }
   .grey {
-    background-image: url(files/bgcontacto.jpg);
+    background-image: url(../files/bgcontacto.jpg);
     background-position: center;
   }
   .grey .contacto {
@@ -906,6 +928,10 @@ body {
   }
   .p-p {
     font-size: 18px;
+  }
+  .p-photos .tam-notes {
+    height: 150px;
+    width: auto;
   }
   .p-photos .tam-procesadores {
     height: 170px;
@@ -975,7 +1001,7 @@ body {
     height: 280px;
   }
   .serv {
-    background-image: url(files/bgservices.jpg);
+    background-image: url(../files/bgservices.jpg);
     background-position: left;
   }
   .serv .services .subtitle-serv {
@@ -985,7 +1011,7 @@ body {
     background-color: rgba(255, 255, 255, 0.6);
   }
   .grey {
-    background-image: url(files/bgcontacto.jpg);
+    background-image: url(../files/bgcontacto.jpg);
     background-position: center;
   }
   .grey .contacto {
@@ -1048,6 +1074,10 @@ body {
   .p-p {
     font-size: 20px;
   }
+  .p-photos .tam-notes {
+    height: 150px;
+    width: auto;
+  }
   .p-photos .tam-procesadores {
     height: 170px;
     width: auto;
@@ -1077,7 +1107,7 @@ body {
     width: auto;
   }
   .p-photos .tam-fuente {
-    height: 120px;
+    height: 130px;
     width: auto;
   }
   .p-photos .tam-refriaire {
@@ -1125,7 +1155,7 @@ body {
     font-size: 18px;
   }
   .serv {
-    background-image: url(files/bgservices.jpg);
+    background-image: url(../files/bgservices.jpg);
     background-position: left;
   }
   .serv .services .subtitle-serv {
@@ -1135,7 +1165,7 @@ body {
     background-color: rgba(255, 255, 255, 0.6);
   }
   .grey {
-    background-image: url(files/bgcontacto.jpg);
+    background-image: url(../files/bgcontacto.jpg);
     background-position: center;
   }
   .grey .contacto {
@@ -1243,6 +1273,10 @@ body {
   .p-p {
     font-size: 30px;
   }
+  .p-photos .tam-notes {
+    height: 300px;
+    width: auto;
+  }
   .p-photos .tam-procesadores {
     height: 300px;
     width: auto;
@@ -1320,7 +1354,7 @@ body {
     font-size: 25px;
   }
   .serv {
-    background-image: url(files/bgservices.jpg);
+    background-image: url(../files/bgservices.jpg);
     background-position: left;
   }
   .serv .title-serv {
@@ -1335,7 +1369,7 @@ body {
     font-size: 30px;
   }
   .grey {
-    background-image: url(files/bgcontacto.jpg);
+    background-image: url(../files/bgcontacto.jpg);
     background-position: center;
   }
   .grey .contacto {
