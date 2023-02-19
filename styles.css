@@ -516,6 +516,18 @@ body {
   margin-left: 30px;
 }
 
+.pdp {
+  margin-left: 0;
+}
+.pdp h2 {
+  font-size: 20px;
+  font-family: "NVIDIA Sans" sans serif;
+  font-weight: bold;
+}
+.pdp ul {
+  padding-left: 15px;
+}
+
 @media only screen and (min-width: 375px) and (max-width: 424px) {
   .navbar {
     background-color: #343636;
@@ -641,10 +653,16 @@ body {
   .grey .form-contact form label {
     font-size: 20px;
   }
+  .pdp {
+    width: 375px;
+  }
+  .pdp h2 {
+    font-size: 22px;
+  }
 }
 @media only screen and (min-width: 425px) and (max-width: 767px) {
   .navbar-expand-md .navbar-brand h1 {
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 30px;
   }
   .navbar-expand-md .navbar-toggler i {
@@ -750,6 +768,9 @@ body {
   }
   .grey .form-contact form label {
     font-size: 22px;
+  }
+  .pdp h2 {
+    font-size: 25px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -892,6 +913,12 @@ body {
     background-color: rgba(255, 255, 255, 0.3);
     padding: 5px;
   }
+  .pdp h2 {
+    font-size: 25px;
+  }
+  .pdp strong {
+    font-size: 18px;
+  }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
   .navbar-expand-md .navbar-brand h1 {
@@ -1027,6 +1054,18 @@ body {
   ul .list-support {
     background-color: rgba(255, 255, 255, 0.3);
     padding: 5px;
+  }
+  .pdp {
+    padding: 0 0 0 20px;
+  }
+  .pdp h2 {
+    font-size: 27px;
+  }
+  .pdp strong {
+    font-size: 18px;
+  }
+  .pdp ul {
+    padding: 0 0 0 20px;
   }
 }
 @media only screen and (min-width: 1440px) and (max-width: 2559px) {
@@ -1184,6 +1223,18 @@ body {
   ul .list-support {
     background-color: rgba(255, 255, 255, 0.3);
     padding: 5px;
+  }
+  .pdp {
+    padding: 0 0 0 20px;
+  }
+  .pdp h2 {
+    font-size: 30px;
+  }
+  .pdp strong {
+    font-size: 20px;
+  }
+  .pdp ul {
+    padding: 0 0 0 20px;
   }
 }
 @media only screen and (min-width: 2560px) {
@@ -1401,6 +1452,21 @@ body {
     background-color: rgba(255, 255, 255, 0.3);
     padding: 5px;
     font-size: 30px;
+  }
+  .pdp {
+    padding: 0 0 0 40px;
+  }
+  .pdp h2 {
+    font-size: 50px;
+  }
+  .pdp strong {
+    font-size: 35px;
+  }
+  .pdp p {
+    font-size: 30px;
+  }
+  .pdp ul {
+    padding: 0 0 0 20px;
   }
 }
 
