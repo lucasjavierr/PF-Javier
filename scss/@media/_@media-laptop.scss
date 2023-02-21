@@ -61,12 +61,39 @@
         }
     }
 
-    .marcas {
-        height: 80px;
+    .slider {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        overflow: hidden;
+    
+        .slide-track {
+            display: flex;
+            -webkit-animation: scroll 40s linear infinite;
+            animation: scroll 40s linear infinite;
+            width: 160px * 28;
+    
+            .slide {
+                width: 160px;
+                padding-left: 10px;
+    
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
-
-    .space {
-        height: 850px;
+    
+    @keyframes scroll {
+        0% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+    
+        100% {
+            -webkit-transform: translateX(-160px * 14);
+            transform: translateX(-160px * 14);
+        }
     }
 
     #footer {
@@ -320,14 +347,41 @@
         }
     }
 
-    .marcas {
-        height: 80px;
+    .slider {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        overflow: hidden;
+    
+        .slide-track {
+            display: flex;
+            -webkit-animation: scroll 40s linear infinite;
+            animation: scroll 40s linear infinite;
+            width: 160px * 28;
+    
+            .slide {
+                width: 160px;
+                padding-left: 10px;
+    
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
-
-    .space {
-        height: 650px;
+    
+    @keyframes scroll {
+        0% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+    
+        100% {
+            -webkit-transform: translateX(-160px * 14);
+            transform: translateX(-160px * 14);
+        }
     }
-
+    
     // PRODUCTOS
     // PRODUCTOS
     // PRODUCTOS

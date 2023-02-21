@@ -59,11 +59,6 @@
         }
     }
 
-    .space {
-        height: 700px;
-        width: 375px;
-    }
-
     #footer {
         width: 375px;
     }
@@ -257,12 +252,39 @@
         height: 200px;
     }
 
-    .marcas {
-        height: 60px;
+    .slider {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        overflow: hidden;
+    
+        .slide-track {
+            display: flex;
+            -webkit-animation: scroll 40s linear infinite;
+            animation: scroll 40s linear infinite;
+            width: 150px * 28;
+    
+            .slide {
+                width: 150px;
+                padding-left: 10px;
+    
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
-
-    .space {
-        height: 950px;
+    
+    @keyframes scroll {
+        0% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+    
+        100% {
+            -webkit-transform: translateX(-150px * 14);
+            transform: translateX(-150px * 14);
+        }
     }
 
     // PRODUCTOS
