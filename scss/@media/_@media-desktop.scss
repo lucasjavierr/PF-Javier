@@ -209,6 +209,40 @@
         }
     }
 
+            // PRODUCTOS/PROCESADORES
+            // PRODUCTOS/PROCESADORES
+            // PRODUCTOS/PROCESADORES
+            .cards {
+
+                .intel , .amd {
+
+                    h3 {
+                        font-size: 25px;
+                    }
+
+                    .card {
+                        margin: 10px 8px;
+                        width: 210px;
+                        height: 300px;
+
+                        .card-img-top {
+                            height: 130px;
+                        }
+
+                        .card-body {
+
+                            .card-title {
+                                height: 44px;
+                            }
+
+                            .btn {
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
     // PRESUPUESTOS
     // PRESUPUESTOS
     // PRESUPUESTOS
@@ -588,6 +622,74 @@
             width: auto;
         }
     }
+
+            // PRODUCTOS-PROCESADORES
+            // PRODUCTOS-PROCESADORES
+            // PRODUCTOS-PROCESADORES
+            .cards {
+            
+                .intel , .amd {
+            
+                    h3 {
+                        font-size: 40px;
+                        margin-bottom: 20px;
+                    }
+            
+                    .card {
+                        width: 390px;
+                        height: 500px;
+                        margin: 15px 12px;
+                    
+                        .card-img-top {
+                            height: 270px;
+                        }
+                    
+                        .card-body {
+                
+                            .card-title {
+                                font-size: 30px;
+                                height: 72px;
+                            }
+                
+                            .card-text {
+                                font-size: 25px;
+                            }
+                    
+                            .btn {
+                                font-size: 27px;
+                                margin-left: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // .cards {
+
+            //     .intel , .amd {
+
+            //         h3 {
+            //             font-size: 25px;
+            //         }
+
+            //         .card {
+            //             margin: 10px 8px;
+            //             width: 210px;
+            //             height: 270px;
+
+            //             .card-body {
+
+            //                 .card-title {
+            //                     height: 44px;
+            //                 }
+
+            //                 .btn {
+            //                     margin-left: 10px;
+            //                 }
+            //             }
+            //         }
+            //     }
+            // }
 
     // PRESUPUESTOS
     // PRESUPUESTOS

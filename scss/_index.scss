@@ -152,6 +152,7 @@ body {
 // SECTION start
 .nov {
     border-bottom: 1px solid #333;
+    width: 100%;
 }
 
 .bgc-img {
@@ -205,6 +206,8 @@ body {
         .img#{$i} {
             background-color: #000;
             background-image: url(files/img#{$i}.jpg);
+            background-position: center;
+            background-size: contain;
         }
     }
 }

@@ -209,6 +209,36 @@
         }
     }
 
+            // PRODUCTOS/PROCESADORES
+            // PRODUCTOS/PROCESADORES
+            // PRODUCTOS/PROCESADORES
+            .cards {
+                display: flex;
+
+                .intel , .amd {
+
+                    h3 {
+                        font-size: 22px;
+                    }
+
+                    .card {
+                        width: 168px;
+                        height: 320px;
+
+                        .card-body {
+
+                            .card-title {
+                                height: 55px;
+                            }
+
+                            .btn {
+                                margin-left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
     // PRESUPUESTOS
     // PRESUPUESTOS
     // PRESUPUESTOS
@@ -343,7 +373,13 @@
     .bgc-img {
 
         .img-section {
-            height: 280px;
+            background-color: #000;
+            height: 250px;
+            width: 100%;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 0;
         }
     }
 
@@ -484,6 +520,40 @@
             width: auto;
         }
     }
+
+            // PRODUCTOS/PROCESADORES
+            // PRODUCTOS/PROCESADORES
+            // PRODUCTOS/PROCESADORES
+            .cards {
+
+                .intel , .amd {
+
+                    h3 {
+                        font-size: 22px;
+                    }
+
+                    .card {
+                        margin: 10px 8px;
+                        width: 230px;
+                        height: 300px;
+
+                        .card-img-top {
+                            height: 130px;
+                        }
+
+                        .card-body {
+
+                            .card-title {
+                                height: 50px;
+                            }
+
+                            .btn {
+                                margin-left: 20px;
+                            }
+                        }
+                    }
+                }
+            }
 
     // PRESUPUESTOS
     // PRESUPUESTOS

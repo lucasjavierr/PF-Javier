@@ -386,6 +386,35 @@
         }
     }
 
+            // PRODUCTOS/CARDS
+            // PRODUCTOS/CARDS
+            // PRODUCTOS/CARDS
+            .cards {
+
+                .intel , .amd {
+
+                    h3 {
+                        font-size: 22px;
+                    }
+
+                    .card {
+                        width: 180px;
+                        height: 320px;
+
+                        .card-body {
+
+                            .card-title {
+                                height: 55px;
+                            }
+
+                            .btn {
+                                margin-left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
     // CONTACTO
     // CONTACTO
     // CONTACTO

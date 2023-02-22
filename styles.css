@@ -106,6 +106,7 @@ body {
 
 .nov {
   border-bottom: 1px solid #333;
+  width: 100%;
 }
 
 .bgc-img {
@@ -153,18 +154,26 @@ body {
 .bgc-img .img1 {
   background-color: #000;
   background-image: url(files/img1.jpg);
+  background-position: center;
+  background-size: contain;
 }
 .bgc-img .img2 {
   background-color: #000;
   background-image: url(files/img2.jpg);
+  background-position: center;
+  background-size: contain;
 }
 .bgc-img .img3 {
   background-color: #000;
   background-image: url(files/img3.jpg);
+  background-position: center;
+  background-size: contain;
 }
 .bgc-img .img4 {
   background-color: #000;
   background-image: url(files/img4.jpg);
+  background-position: center;
+  background-size: contain;
 }
 
 .slider {
@@ -550,56 +559,60 @@ body {
   padding-left: 15px;
 }
 
-.container-fluid {
+.cards {
   display: flex;
   flex-wrap: wrap;
 }
-.container-fluid .intel, .container-fluid .amd {
+.cards .intel, .cards .amd {
   display: flex;
   flex-wrap: wrap;
   border-top: 1px solid #333;
   padding: 0;
   justify-content: center;
 }
-.container-fluid .intel h3, .container-fluid .amd h3 {
+.cards .intel h3, .cards .amd h3 {
   width: 100%;
   font-size: 20px;
-  padding: 15px;
+  height: 24px;
+  font-weight: 600;
+  margin-top: 20px;
 }
-.container-fluid .card {
+.cards .card {
   margin: 10px 8px;
+  height: 290px;
   width: 250px;
   justify-content: center;
   border: 2px solid rgba(0, 0, 0, 0.15);
 }
-.container-fluid .card .card-img-top {
+.cards .card .card-img-top {
   width: auto;
-  height: 100px;
+  height: 120px;
   margin: 0 auto;
 }
-.container-fluid .card .card-body {
+.cards .card .card-body {
   padding: 15px;
   justify-content: center;
 }
-.container-fluid .card .card-body .card-title {
+.cards .card .card-body .card-title {
   font-size: 18px;
   text-align: center;
   font-weight: bold;
+  height: 43px;
 }
-.container-fluid .card .card-body .card-text {
+.cards .card .card-body .card-text {
   font-size: 16px;
   text-align: center;
 }
-.container-fluid .card .card-body .btn {
+.cards .card .card-body .btn {
   background-color: #91c612 !important;
   border: 1px solid #343636 !important;
-  margin: 0 auto;
+  margin-left: 30px;
 }
-.container-fluid .card .card-body .btn:hover {
+.cards .card .card-body .btn:hover {
   background-color: #343636 !important;
   border: 1px solid #91c612 !important;
 }
-.container-fluid .card .card-body .btn:active {
+.cards .card .card-body .btn:active {
   border: 1px solid #91c612 !important;
 }
 
@@ -857,6 +870,19 @@ body {
     height: 150px;
     width: auto;
   }
+  .cards .intel h3, .cards .amd h3 {
+    font-size: 22px;
+  }
+  .cards .intel .card, .cards .amd .card {
+    width: 180px;
+    height: 320px;
+  }
+  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title {
+    height: 55px;
+  }
+  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn {
+    margin-left: 0;
+  }
   .grey .contacto {
     font-size: 25px;
   }
@@ -999,6 +1025,22 @@ body {
     height: 160px;
     width: auto;
   }
+  .cards {
+    display: flex;
+  }
+  .cards .intel h3, .cards .amd h3 {
+    font-size: 22px;
+  }
+  .cards .intel .card, .cards .amd .card {
+    width: 168px;
+    height: 320px;
+  }
+  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title {
+    height: 55px;
+  }
+  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn {
+    margin-left: 0;
+  }
   .img-pres {
     height: 220px;
   }
@@ -1056,7 +1098,13 @@ body {
     height: 350px;
   }
   .bgc-img .img-section {
-    height: 280px;
+    background-color: #000;
+    height: 250px;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
   }
   .slider {
     width: 100%;
@@ -1163,6 +1211,23 @@ body {
   .p-photos .tam-auris {
     height: 190px;
     width: auto;
+  }
+  .cards .intel h3, .cards .amd h3 {
+    font-size: 22px;
+  }
+  .cards .intel .card, .cards .amd .card {
+    margin: 10px 8px;
+    width: 230px;
+    height: 300px;
+  }
+  .cards .intel .card .card-img-top, .cards .amd .card .card-img-top {
+    height: 130px;
+  }
+  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title {
+    height: 50px;
+  }
+  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn {
+    margin-left: 20px;
   }
   .img-pres {
     height: 280px;
@@ -1343,6 +1408,23 @@ body {
   .p-photos .tam-auris {
     height: 200px;
     width: auto;
+  }
+  .cards .intel h3, .cards .amd h3 {
+    font-size: 25px;
+  }
+  .cards .intel .card, .cards .amd .card {
+    margin: 10px 8px;
+    width: 210px;
+    height: 300px;
+  }
+  .cards .intel .card .card-img-top, .cards .amd .card .card-img-top {
+    height: 130px;
+  }
+  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title {
+    height: 44px;
+  }
+  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn {
+    margin-left: 10px;
   }
   .img-pres {
     height: 370px;
@@ -1577,6 +1659,29 @@ body {
   .p-photos .tam-auris {
     height: 300px;
     width: auto;
+  }
+  .cards .intel h3, .cards .amd h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .cards .intel .card, .cards .amd .card {
+    width: 390px;
+    height: 500px;
+    margin: 15px 12px;
+  }
+  .cards .intel .card .card-img-top, .cards .amd .card .card-img-top {
+    height: 270px;
+  }
+  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title {
+    font-size: 30px;
+    height: 72px;
+  }
+  .cards .intel .card .card-body .card-text, .cards .amd .card .card-body .card-text {
+    font-size: 25px;
+  }
+  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn {
+    font-size: 27px;
+    margin-left: 60px;
   }
   .img-pres {
     height: 600px;
