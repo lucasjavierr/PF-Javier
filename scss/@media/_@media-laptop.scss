@@ -215,7 +215,7 @@
             .cards {
                 display: flex;
 
-                .intel , .amd {
+                .intel , .amd , .element {
 
                     h3 {
                         font-size: 22px;
@@ -223,12 +223,16 @@
 
                     .card {
                         width: 168px;
-                        height: 320px;
+                        height: 350px;
+
+                        .card-img-top {
+                            max-width: 165px;
+                        }
 
                         .card-body {
 
                             .card-title {
-                                height: 55px;
+                                height: 75px;
                             }
 
                             .btn {
@@ -526,7 +530,7 @@
             // PRODUCTOS/PROCESADORES
             .cards {
 
-                .intel , .amd {
+                .intel , .amd , .element {
 
                     h3 {
                         font-size: 22px;
@@ -535,10 +539,11 @@
                     .card {
                         margin: 10px 8px;
                         width: 230px;
-                        height: 300px;
+                        height: 310px;
 
                         .card-img-top {
-                            height: 130px;
+                            height: 140px;
+                            max-width: 230px;
                         }
 
                         .card-body {

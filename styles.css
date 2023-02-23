@@ -563,14 +563,14 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.cards .intel, .cards .amd {
+.cards .intel, .cards .amd, .cards .element {
   display: flex;
   flex-wrap: wrap;
   border-top: 1px solid #333;
   padding: 0;
   justify-content: center;
 }
-.cards .intel h3, .cards .amd h3 {
+.cards .intel h3, .cards .amd h3, .cards .element h3 {
   width: 100%;
   font-size: 20px;
   height: 24px;
@@ -579,14 +579,14 @@ body {
 }
 .cards .card {
   margin: 10px 8px;
-  height: 290px;
+  height: 300px;
   width: 250px;
   justify-content: center;
   border: 2px solid rgba(0, 0, 0, 0.15);
 }
 .cards .card .card-img-top {
   width: auto;
-  height: 120px;
+  height: 130px;
   margin: 0 auto;
 }
 .cards .card .card-body {
@@ -870,17 +870,20 @@ body {
     height: 150px;
     width: auto;
   }
-  .cards .intel h3, .cards .amd h3 {
+  .cards .intel h3, .cards .amd h3, .cards .element h3 {
     font-size: 22px;
   }
-  .cards .intel .card, .cards .amd .card {
+  .cards .intel .card, .cards .amd .card, .cards .element .card {
     width: 180px;
-    height: 320px;
+    height: 345px;
   }
-  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title {
-    height: 55px;
+  .cards .intel .card .card-img-top, .cards .amd .card .card-img-top, .cards .element .card .card-img-top {
+    max-width: 180px;
   }
-  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn {
+  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title, .cards .element .card .card-body .card-title {
+    height: 75px;
+  }
+  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn, .cards .element .card .card-body .btn {
     margin-left: 0;
   }
   .grey .contacto {
@@ -1028,17 +1031,20 @@ body {
   .cards {
     display: flex;
   }
-  .cards .intel h3, .cards .amd h3 {
+  .cards .intel h3, .cards .amd h3, .cards .element h3 {
     font-size: 22px;
   }
-  .cards .intel .card, .cards .amd .card {
+  .cards .intel .card, .cards .amd .card, .cards .element .card {
     width: 168px;
-    height: 320px;
+    height: 350px;
   }
-  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title {
-    height: 55px;
+  .cards .intel .card .card-img-top, .cards .amd .card .card-img-top, .cards .element .card .card-img-top {
+    max-width: 165px;
   }
-  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn {
+  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title, .cards .element .card .card-body .card-title {
+    height: 75px;
+  }
+  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn, .cards .element .card .card-body .btn {
     margin-left: 0;
   }
   .img-pres {
@@ -1212,21 +1218,22 @@ body {
     height: 190px;
     width: auto;
   }
-  .cards .intel h3, .cards .amd h3 {
+  .cards .intel h3, .cards .amd h3, .cards .element h3 {
     font-size: 22px;
   }
-  .cards .intel .card, .cards .amd .card {
+  .cards .intel .card, .cards .amd .card, .cards .element .card {
     margin: 10px 8px;
     width: 230px;
-    height: 300px;
+    height: 310px;
   }
-  .cards .intel .card .card-img-top, .cards .amd .card .card-img-top {
-    height: 130px;
+  .cards .intel .card .card-img-top, .cards .amd .card .card-img-top, .cards .element .card .card-img-top {
+    height: 140px;
+    max-width: 230px;
   }
-  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title {
+  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title, .cards .element .card .card-body .card-title {
     height: 50px;
   }
-  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn {
+  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn, .cards .element .card .card-body .btn {
     margin-left: 20px;
   }
   .img-pres {
@@ -1409,21 +1416,22 @@ body {
     height: 200px;
     width: auto;
   }
-  .cards .intel h3, .cards .amd h3 {
+  .cards .intel h3, .cards .amd h3, .cards .element h3 {
     font-size: 25px;
   }
-  .cards .intel .card, .cards .amd .card {
+  .cards .intel .card, .cards .amd .card, .cards .element .card {
     margin: 10px 8px;
     width: 210px;
-    height: 300px;
+    height: 330px;
   }
-  .cards .intel .card .card-img-top, .cards .amd .card .card-img-top {
-    height: 130px;
+  .cards .intel .card .card-img-top, .cards .amd .card .card-img-top, .cards .element .card .card-img-top {
+    height: 150px;
+    max-width: 210px;
   }
-  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title {
-    height: 44px;
+  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title, .cards .element .card .card-body .card-title {
+    height: 55px;
   }
-  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn {
+  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn, .cards .element .card .card-body .btn {
     margin-left: 10px;
   }
   .img-pres {
@@ -1660,26 +1668,26 @@ body {
     height: 300px;
     width: auto;
   }
-  .cards .intel h3, .cards .amd h3 {
+  .cards .intel h3, .cards .amd h3, .cards .element h3 {
     font-size: 40px;
     margin-bottom: 20px;
   }
-  .cards .intel .card, .cards .amd .card {
+  .cards .intel .card, .cards .amd .card, .cards .element .card {
     width: 390px;
     height: 500px;
     margin: 15px 12px;
   }
-  .cards .intel .card .card-img-top, .cards .amd .card .card-img-top {
+  .cards .intel .card .card-img-top, .cards .amd .card .card-img-top, .cards .element .card .card-img-top {
     height: 270px;
   }
-  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title {
+  .cards .intel .card .card-body .card-title, .cards .amd .card .card-body .card-title, .cards .element .card .card-body .card-title {
     font-size: 30px;
     height: 72px;
   }
-  .cards .intel .card .card-body .card-text, .cards .amd .card .card-body .card-text {
+  .cards .intel .card .card-body .card-text, .cards .amd .card .card-body .card-text, .cards .element .card .card-body .card-text {
     font-size: 25px;
   }
-  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn {
+  .cards .intel .card .card-body .btn, .cards .amd .card .card-body .btn, .cards .element .card .card-body .btn {
     font-size: 27px;
     margin-left: 60px;
   }
