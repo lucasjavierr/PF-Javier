@@ -1,43 +1,73 @@
-.bgc-pres {
-    background-image: linear-gradient(to right, #111 40%, #999);
-}
+.container-fluid {
 
-.pres-bgc {
-    background-image: linear-gradient(to left, #111 40%, #999);
-}
-
-.img-pres {
-    height: 130px;
-    width: 100%;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0;
-}
-
-@for $i from 1 through 3 {
-    .pre#{$i} {
-        background-image: url(files/pre#{$i}.png);
+    .bgc-pres {
+        background-image: linear-gradient(to right, $bgcolor 40%, #888);
+        border-bottom: 2px solid $color1;
+        align-items: center;
     }
-}
-
-.title-pres {
-    color: #fff;
-    padding: 20px;
-    font-family: $font1;
-
-    h3 {
-        text-align: left;
-        color: $color1;
-        font-family: $font1;
-        font-size: 18px;
-        font-weight: bold;
+    
+    .pres-bgc {
+        background-image: linear-gradient(to left, $bgcolor 40%, #888);
+        border-bottom: 2px solid $color1;
+        align-items: center;
     }
 
-    p {
-        text-align: left;
+    .img-pres {
+        height: 200px;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0;
+    }
+    
+    @for $i from 1 through 6 {
+        .pre#{$i} {
+            background-image: url(../files/presupuestos/pre#{$i}.png);
+        }
+    }
+
+    .title-pres {
+        color: #fff;
+        padding: 20px;
         font-family: $font1;
-        font-size: 16px;
-        font-weight: normal;
+    
+        h3 {
+            text-align: left;
+            color: $color1;
+            font-family: $font1;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    
+        ul {
+            list-style: none;
+
+            li {
+                text-align: left;
+                font-family: $font1;
+                font-size: 16px;
+                font-weight: normal;
+                width: 100%;
+            }
+
+            i {
+                margin-right: 15px;
+            }
+        }
+    
+        .btn {
+            background-color: $color1 !important;
+            border: 1px solid $bgcolor !important;
+        }
+        
+        .btn:hover {
+            background-color: $bgcolor !important;
+            border: 1px solid $color1 !important;
+        }
+        
+        .btn:active {
+            border: 1px solid $color1 !important;
+        }
     }
 }

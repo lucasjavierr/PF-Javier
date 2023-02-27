@@ -32,6 +32,10 @@
                 }
             }
         }
+
+        .navbar-collapse {
+            margin-right: 30px;
+        }
     }
 
     .carousel-inner {
@@ -103,6 +107,50 @@
         100% {
             -webkit-transform: translateX(-170px * 14);
             transform: translateX(-170px * 14);
+        }
+    }
+
+    #footer {
+        justify-content: center;
+
+        .container-fluid {
+
+            .foo {
+                padding: 0 40px;
+    
+                h5 {
+                    font-size: 25px;
+                }
+            }
+
+            .social {
+
+                .list-inline-item {
+    
+                    .fa-brands {
+                        font-size: 30px;
+                        margin-left: 20px;
+                    }
+    
+                    .fa-brands:hover {
+                        font-size: 40px;
+                    }
+                }
+            }
+    
+            ul.quick-links {
+    
+                li {
+
+                    a {
+                        font-size: 20px;
+                    }
+                }
+            }
+    
+            p {
+                font-size: 20px;
+            }
         }
     }
 
@@ -249,8 +297,26 @@
     // PRESUPUESTOS
     // PRESUPUESTOS
 
-    .img-pres {
-        height: 370px;
+    .container-fluid {
+
+        .img-pres {
+            height: 280px;
+            width: 100%;
+        }
+
+        .title-pres {
+
+            h3 {
+                font-size: 25px;
+            }
+
+            ul {
+                
+                li {
+                    font-size: 20px;
+                }
+            }
+        }
     }
 
     .title-pres {
@@ -271,20 +337,27 @@
     // SERVICIOS
     // SERVICIOS
     // SERVICIOS
-    .serv {
-        background-image: url(../files/bgservices.jpg);
-        background-position: left;
+    .title-serv {
+        font-size: 32px;
+    }
 
-        .services {
+    .p-serv {
+        font-size: 20px;
+    }
+
+    .servicios {
+        
+        .serv {
+            height: 500px;
 
             .subtitle-serv {
-                background-color: rgba(255, 255, 255, 0.6);
-            }
 
-            .list {
+                h3 {
+                    font-size: 30px;
+                }
 
-                li {
-                    background-color: rgba(255, 255, 255, 0.6);
+                p {
+                    font-size: 22px;
                 }
             }
         }
@@ -385,6 +458,10 @@
                 }
             }
         }
+
+        .navbar-collapse {
+            margin-right: 30px;
+        }
     }
 
     .carousel-inner {
@@ -406,10 +483,6 @@
             height: 80px;
             width: 40px;
         }
-    }
-
-    .title-h2 {
-        font-size: 50px;
     }
 
     .bgc-img {
@@ -470,47 +543,46 @@
     }
 
     #footer {
+        justify-content: center;
 
-        .foo {
-            padding: 0 60px;
+        .container-fluid {
 
-            h5 {
+            .foo {
+                padding: 0 120px;
+    
+                h5 {
+                    font-size: 45px;
+                }
+            }
+
+            .social {
+
+                .list-inline-item {
+    
+                    .fa-brands {
+                        font-size: 60px;
+                        margin-left: 20px;
+                    }
+    
+                    .fa-brands:hover {
+                        font-size: 80px;
+                    }
+                }
+            }
+    
+            ul.quick-links {
+    
+                li {
+
+                    a {
+                        font-size: 35px;
+                    }
+                }
+            }
+    
+            p {
                 font-size: 35px;
             }
-        }
-
-        .txt-foo {
-            justify-content: space-between;
-        }
-
-        .social {
-
-            .list-inline-item {
-
-                .fa-brands {
-                    font-size: 60px;
-                    margin-left: 20px;
-                }
-
-                .fa-brands:hover {
-                    font-size: 80px;
-                }
-            }
-        }
-
-        ul.quick-links {
-
-            li {
-
-
-                a {
-                    font-size: 25px;
-                }
-            }
-        }
-
-        p {
-            font-size: 25px;
         }
     }
 
@@ -671,50 +743,57 @@
     // PRESUPUESTOS
     // PRESUPUESTOS
     // PRESUPUESTOS
+    .container-fluid {
 
-    .img-pres {
-        height: 600px;
-    }
-
-    .title-pres {
-
-        h3 {
-            font-size: 40px;
+        .img-pres {
+            height: 500px;
         }
 
-        p {
-            font-size: 25px;
-        }
+        .title-pres {
 
-        a {
-            font-size: 25px;
-        }
-    }
-
-
-    // SERVICIOS
-    // SERVICIOS
-    // SERVICIOS
-    .serv {
-        background-image: url(../files/bgservices.jpg);
-        background-position: left;
-
-        .title-serv {
-            font-size: 50px;
-        }
-
-        .services {
-
-            .subtitle-serv {
-                background-color: rgba(255, 255, 255, 0.6);
-                font-size: 40px
+            h3 {
+                font-size: 40px;
             }
-
-            .list {
+    
+            ul {
 
                 li {
-                    background-color: rgba(255, 255, 255, 0.6);
                     font-size: 30px;
+                }
+            }
+
+            a {
+                font-size: 30px;
+                padding: 10px 20px;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    // SERVICIOS
+    // SERVICIOS
+    // SERVICIOS
+    .title-serv {
+        font-size: 50px;
+    }
+
+    .p-serv {
+        font-size: 40px;
+    }
+
+    .servicios {
+        
+        .serv {
+            height: 900px;
+
+            .subtitle-serv {
+
+                h3 {
+                    font-size: 45px;
+                }
+
+                p {
+                    font-size: 35px;
                 }
             }
         }

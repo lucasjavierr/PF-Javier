@@ -104,7 +104,6 @@ html {
         }
     }
 }
-
 // NAVBAR end
 
 // CAROUSEL start
@@ -133,23 +132,7 @@ html {
 .carousel-control-prev {
     height: 150px;
 }
-
 // CAROUSEL end
-
-// SECTION start
-.title-h2 {
-    text-align: center;
-    text-transform: uppercase;
-    color: $color2;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    background-color: $color1;
-    margin: 0;
-    font-family: $font1;
-    font-size: 20px;
-    text-shadow: 20px $color3;
-    font-weight: bold;
-}
 
 // SECTION start
 .nov {
@@ -256,107 +239,124 @@ html {
 #footer {
     background: $bgcolor !important;
     padding: 60px 0;
+    width: 100%;
 
-    .foo {
-        padding: 10px 40px;
-    }
+    .container-fluid {
 
-    h5 {
-        padding-left: 10px;
-        border-left: 3px solid $color1;
-        padding-bottom: 6px;
-        margin-bottom: 20px;
-        color: $color1;
-        font-family: $font1;
-        text-transform: uppercase;
-    }
+        .foo {
+            padding: 10px 20px;
 
-    .list-unstyled {
-        i {
-            color: $color1;
-        }
-    }
-
-    a {
-        color: $color2;
-        text-decoration: none !important;
-        background-color: transparent;
-        -webkit-text-decoration-skip: objects;
-        font-family: $font1;
-    }
-
-    ul.social {
-        li {
-            padding: 3px 0;
-
-            a {
-                color: $color2;
+            h5 {
+                padding-left: 10px;
+                border-left: 3px solid $color1;
+                padding-bottom: 6px;
+                margin-bottom: 20px;
+                color: $color1;
                 font-family: $font1;
+                text-transform: uppercase;
+            }
 
-                i {
-                    margin-right: 5px;
-                    font-size: 30px;
+            .list-unstyled {
+
+                li {
+
+                    a {
+                        color: $color2;
+                        text-decoration: none !important;
+                        background-color: transparent;
+                        -webkit-text-decoration-skip: objects;
+                        font-family: $font1;
+                    }
+
+                    i {
+                        color: $color1;
+                    }
+                }
+            }
+        
+
+            .social {
+
+                li {
+                    padding: 3px 0;
+
+                    a {
+                        color: $color1;
+
+                        i {
+                            margin-right: 5px;
+                            font-size: 30px;
+                            -webkit-transition: .5s all ease;
+                            -moz-transition: .5s all ease;
+                            transition: .5s all ease;
+                        }
+                    }
+                }
+
+                li:hover {
+            
+                    a {
+                        font-family: $font1;
+        
+                        i {
+                            font-size: 40px;
+                            margin-top: -10px;
+                        }
+                    }
+
+                    a:hover {
+                        color: #eeeeee;
+                        font-family: $font1;
+                    }
+                }
+            }
+
+            .quick-links {
+
+                li {
+                    padding: 3px 0;
                     -webkit-transition: .5s all ease;
                     -moz-transition: .5s all ease;
                     transition: .5s all ease;
+
+                    a {
+                        color: $color2;
+                        font-family: $font1;
+
+                        i {
+                            margin-right: 5px;
+                        }
+                    }
                 }
-            }
-        }
 
-        li:hover {
-
-            a {
-                font-family: $font1;
-
-                i {
-                    font-size: 40px;
-                    margin-top: -10px;
-                }
-            }
-
-            a:hover {
-                color: #eeeeee;
-                font-family: $font1;
-            }
-        }
-    }
-
-    ul.quick-links {
-        li {
-            padding: 3px 0;
-            -webkit-transition: .5s all ease;
-            -moz-transition: .5s all ease;
-            transition: .5s all ease;
-
-            a {
-                color: $color2;
-                font-family: $font1;
-
-                i {
-                    margin-right: 5px;
-                }
-            }
-        }
-
-        li:hover {
-            padding: 3px 0;
-            margin-left: 5px;
-            font-weight: 700;
-
-            a {
-                font-family: $font1;
-
-                i {
+                li:hover {
+                    padding: 3px 0;
+                    margin-left: 5px;
                     font-weight: 700;
+
+                    a {
+                        font-family: $font1;
+
+                        i {
+                            font-weight: 700;
+                        }
+                    }
                 }
             }
         }
-    }
+        
+        .h6 {
+            color: $color1;
+            font-family: $font1;
+        }
 
-    .h6 {
-        color: $color1;
-        font-family: $font1;
+        p {
+
+            a {
+                color: $color1;
+                text-decoration: underline $color1;
+            }
+        }
     }
 }
-
 // FOOTER end

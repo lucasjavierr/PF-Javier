@@ -1,41 +1,108 @@
-.serv {
-    background-image: linear-gradient(to bottom, rgb(234, 229, 198), rgb(245, 244, 243));
-    background-size: cover;
-    background-repeat: no-repeat;
+// .serv {
+//     background-image: linear-gradient(to bottom, rgb(234, 229, 198), rgb(245, 244, 243));
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     width: 100%;
+//     margin: 0;
+//     display: flex;
+
+//     .row {
+//         justify-content: center;
+
+//         .title-serv {
+//             height: 10%;
+//             width: 100%;
+//             background-color: $color1;
+//             color: #fff;
+//             font-size: 22px;
+//             font-weight: bold;
+//             padding-top: 20px;
+    
+//             span {
+//                 color: $bgcolor;
+//             }
+//         }
+    
+//         .services {
+//             text-align: center;
+//             padding-right: 30px;
+//             margin: 0 auto;
+    
+//             .subtitle-serv {
+//                 color: #000;
+//                 padding-left: 5px;
+//                 font-size: 20px;
+//                 font-weight: bold;
+//                 margin-top: 10px;
+//             }
+    
+//             .list {
+//                 padding-left: 50px;
+//                 margin: 0 auto;
+//                 text-align: center;
+//                 list-style: none;
+
+//                 li:hover {
+//                     margin-left: 10px;
+//                     transition: all .5s;
+//                 }
+//             }
+//         }
+//     }
+
+.title-serv {
     width: 100%;
+    color: $color3;
+    background-color: $color1;
     margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
 
-    .title-serv {
-        height: 10%;
-        width: 100%;
-        background-color: $color1;
-        color: #fff;
-        font-size: 22px;
-        font-weight: bold;
-        padding-top: 20px;
+.p-serv {
+    width: 100%;
+    color: $color3;
+    background-color: $color1;
+    margin: 0;
+    text-align: center;
+}
 
-        span {
-            color: $bgcolor;
+.servicios {
+    margin: 0;
+    padding: 0;
+
+    @for $i from 1 through 4 {
+        .bgserv#{$i} {
+            background-color: $color3;
+            background-image: url(../files/bgserv#{$i}.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
         }
     }
 
-    .services {
-        text-align: left;
-        padding-right: 30px;
+    .serv {
+        height: 400px;
+        width: 100%;
+        padding: 0;
+        border-bottom: 2px solid #999;
+        display: flex;
+        flex-wrap: wrap;
 
         .subtitle-serv {
-            color: #000;
-            padding-left: 5px;
-            font-size: 20px;
-            font-weight: bold;
-        }
+            justify-content: end;
+            background-color: rgba(0, 0, 0, 0.525);
+            color: $color2;
 
-        .list {
-            padding-left: 50px;
+            h3 {
+                font-size: 20px;
+                text-decoration: underline;
+                color: $color1;
+            }
 
-            li:hover {
-                margin-left: 10px;
-                transition: all .5s;
+            p {
+                font-size: 16px;
             }
         }
     }

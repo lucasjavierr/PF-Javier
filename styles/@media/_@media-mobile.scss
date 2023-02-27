@@ -59,10 +59,6 @@
         }
     }
 
-    #footer {
-        width: 375px;
-    }
-
     // PRODUCTOS
     // PRODUCTOS
     // PRODUCTOS
@@ -440,6 +436,26 @@
                     }
                 }
             }
+
+    // PRESUPUESTOS
+    // PRESUPUESTOS
+    // PRESUPUESTOS
+    .container-fluid {
+
+        .title-pres {
+
+            h3 {
+                font-size: 22px;
+            }
+
+            ul {
+                
+                li {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
 
     // CONTACTO
     // CONTACTO

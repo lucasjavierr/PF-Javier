@@ -6,9 +6,9 @@
     .navbar-expand-md {
 
         .navbar-brand {
+            margin-right: 8px;
 
             h1 {
-                margin-left: 5px;
                 font-size: 30px;
             }
         }
@@ -27,7 +27,7 @@
                 .nav-item {
 
                     .nav-link {
-                        font-size: 14px;
+                        font-size: 16px;
                         padding: 5px;
                     }
                 }
@@ -98,13 +98,18 @@
 
     #footer {
 
-        ul.quick-links {
+        .container-fluid {
 
-            li {
+            .foo {
+                
+                ul.quick-links {
 
-
-                a {
-                    font-size: 15px;
+                    li {
+        
+                        a {
+                            font-size: 15px;
+                        }
+                    }
                 }
             }
         }
@@ -248,28 +253,47 @@
     // PRESUPUESTOS
     // PRESUPUESTOS
     // PRESUPUESTOS
+    .container-fluid {
 
-    .img-pres {
-        height: 220px;
+        .img-pres {
+            height: 250px;
+            width: 100%;
+        }
+
+        .title-pres {
+
+            h3 {
+                font-size: 22px;
+            }
+
+            ul {
+                
+                li {
+                    font-size: 17px;
+                }
+            }
+        }
     }
 
     // SERVICIOS
     // SERVICIOS
     // SERVICIOS
-    .serv {
-        background-image: url(../files/bgservices.jpg);
-        background-position: center;
+    .title-serv {
+        font-size: 25px;
+    }
 
-        .services {
+    .p-serv {
+        font-size: 18px;
+    }
+
+    .servicios {
+        
+        .serv {
 
             .subtitle-serv {
-                background-color: rgba(255, 255, 255, 0.6);
-            }
 
-            .list {
-
-                li {
-                    background-color: rgba(255, 255, 255, 0.6);
+                h3 {
+                    font-size: 20px;
                 }
             }
         }
@@ -358,6 +382,10 @@
                     }
                 }
             }
+        }
+
+        .navbar-collapse {
+            margin-right: 20px;
         }
     }
 
@@ -567,27 +595,51 @@
     // PRESUPUESTOS
     // PRESUPUESTOS
 
-    .img-pres {
-        height: 280px;
+    .container-fluid {
+
+        .img-pres {
+            height: 280px;
+            width: 100%;
+        }
+
+        .title-pres {
+
+            h3 {
+                font-size: 25px;
+            }
+
+            ul {
+                
+                li {
+                    font-size: 18px;
+                }
+            }
+        }
     }
 
     // SERVICIOS
     // SERVICIOS
     // SERVICIOS
-    .serv {
-        background-image: url(../files/bgservices.jpg);
-        background-position: left;
+    .title-serv {
+        font-size: 30px;
+    }
 
-        .services {
+    .p-serv {
+        font-size: 20px;
+    }
+
+    .servicios {
+        
+        .serv {
 
             .subtitle-serv {
-                background-color: rgba(255, 255, 255, 0.6);
-            }
 
-            .list {
+                h3 {
+                    font-size: 27px;
+                }
 
-                li {
-                    background-color: rgba(255, 255, 255, 0.6);
+                p {
+                    font-size: 18px;
                 }
             }
         }
