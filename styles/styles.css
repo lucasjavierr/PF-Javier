@@ -24,6 +24,10 @@ html {
   font-family: "NVIDIA Sans" sans serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .navbar {
   background-color: #343636;
   width: 100%;

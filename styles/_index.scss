@@ -40,6 +40,10 @@ html {
     font-family: $font1;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 // NAVBAR start
 .navbar {
     background-color: $bgcolor;
