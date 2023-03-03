@@ -673,6 +673,9 @@ body {
 }
 
 @media only screen and (min-width: 375px) and (max-width: 424px) {
+  body {
+    overflow-x: hidden;
+  }
   .navbar {
     background-color: #343636;
     width: 375px;
@@ -804,6 +807,9 @@ body {
   }
 }
 @media only screen and (min-width: 425px) and (max-width: 575px) {
+  body {
+    overflow-x: hidden;
+  }
   .navbar-expand-md .navbar-brand h1 {
     margin-left: 10px;
     font-size: 30px;
@@ -964,6 +970,9 @@ body {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    overflow-x: hidden;
+  }
   .navbar-expand-md .navbar-brand {
     margin-right: 8px;
   }
@@ -1163,6 +1172,9 @@ body {
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  body {
+    overflow-x: hidden;
+  }
   .navbar-expand-md .navbar-brand h1 {
     margin-left: 30px;
     font-size: 35px;
@@ -1371,6 +1383,9 @@ body {
   }
 }
 @media only screen and (min-width: 1440px) and (max-width: 2559px) {
+  body {
+    overflow-x: hidden;
+  }
   .navbar-expand-md .navbar-brand h1 {
     margin-left: 30px;
     font-size: 40px;
@@ -1619,6 +1634,9 @@ body {
   }
 }
 @media only screen and (min-width: 2560px) {
+  body {
+    overflow-x: hidden;
+  }
   .navbar-expand-md .navbar-brand {
     height: 150px;
   }
