@@ -318,7 +318,7 @@ body {
 
 .p-p {
   text-align: center;
-  font-family: "Nvidia Sans" sans-serif;
+  font-family: "NVIDIA Sans" sans serif;
 }
 
 .p-photos {
@@ -678,7 +678,7 @@ body {
   }
   .navbar {
     background-color: #343636;
-    width: 375px;
+    width: 100%;
     position: sticky;
   }
   .navbar-expand-md {
@@ -696,17 +696,17 @@ body {
   }
   .carousel-inner .carousel-item .banner {
     height: 180px;
-    width: 375px;
+    width: 100%;
   }
   .carousel-control-next,
   .carousel-control-prev {
     height: 180px;
   }
   .bgc-img {
-    width: 375px;
+    width: 100%;
   }
   .bgc-img .img-section {
-    width: 375px;
+    width: 100%;
     background-position: center;
   }
   .p-photos .tam-notes {
@@ -784,13 +784,13 @@ body {
     margin-left: 60px;
   }
   .bgc-pres {
-    width: 375px;
+    width: 100%;
   }
   .pres-bgc {
-    width: 375px;
+    width: 100%;
   }
   .img-pres {
-    width: 375px;
+    width: 100%;
     background-position: center;
   }
   .grey .contacto {
@@ -800,7 +800,7 @@ body {
     font-size: 20px;
   }
   .pdp {
-    width: 375px;
+    width: 100%;
   }
   .pdp h2 {
     font-size: 22px;

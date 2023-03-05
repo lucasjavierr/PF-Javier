@@ -8,7 +8,7 @@
     padding: 5px;
 
     a {
-        color: #fff;
+        color: $color2;
         text-decoration: underline;
     }
 
@@ -23,7 +23,7 @@
 }
 
 .p-bg-white {
-    background-color: #fff;
+    background-color: $color2;
     height: 300px;
 }
 
@@ -38,7 +38,7 @@
 
 .p-p {
     text-align: center;
-    font-family: 'Nvidia Sans' sans-serif;
+    font-family: $font1
 }
 
 .p-photos{

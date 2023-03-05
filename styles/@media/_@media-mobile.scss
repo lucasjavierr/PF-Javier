@@ -9,7 +9,7 @@
 
     .navbar {
         background-color: $bgcolor;
-        width: 375px;
+        width: 100%;
         position: sticky;
     }
 
@@ -44,7 +44,7 @@
 
             .banner {
                 height: 180px;
-                width: 375px;
+                width: 100%;
             }
         }
     }
@@ -55,10 +55,10 @@
     }
 
     .bgc-img {
-        width: 375px;
+        width: 100%;
 
         .img-section {
-            width: 375px;
+            width: 100%;
             background-position: center;
         }
     }
@@ -178,15 +178,15 @@
     // PRESUPUESTOS
     // PRESUPUESTOS
     .bgc-pres {
-        width: 375px;
+        width: 100%;
     }
 
     .pres-bgc {
-        width: 375px;
+        width: 100%;
     }
 
     .img-pres {
-        width: 375px;
+        width: 100%;
         background-position: center;
     }
 
@@ -215,7 +215,7 @@
     // POLITICA DE PRIVACIDAD
     // POLITICA DE PRIVACIDAD
     .pdp {
-        width: 375px;
+        width: 100%;
 
         h2 {
             font-size: 22px;

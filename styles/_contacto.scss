@@ -18,7 +18,7 @@
 
             label {
                 font-size: 18px;
-                color: #000;
+                color: $color3;
             }
     
             input {
@@ -31,7 +31,7 @@
             }
             
             input:hover {
-                border: #000 solid 2px;
+                border: $color3 solid 2px;
             }
 
             textarea {
@@ -44,20 +44,20 @@
             }
 
             textarea:hover {
-                border: #000 solid 2px;
+                border: $color3 solid 2px;
             }
 
             .enviar {
                 height: 5%;
                 width: 25%;
-                border: #000 solid 2px;
+                border: $color3 solid 2px;
                 color: #fff;
                 background-color: $color1;
                 color: #fff;
             }
 
             .enviar:hover {
-                border: #000 solid 2px;
+                border: $color3 solid 2px;
                 color: $color1;
                 background-color: #333;
             }
